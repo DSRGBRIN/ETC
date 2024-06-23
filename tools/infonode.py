@@ -26,7 +26,7 @@ def backup():
         out = check_output(["ifconfig", "-a"]).decode("utf-8")
         stro = out.replace("\r\n", "<br>").split("<br>")
         for i in range(len(stro)):
-            if stro[i].find("inet")>0:
+            if stro[i].find("inet ")>0:
                 dt.append(stro[i])
            
     print("<br>".join(dt))
