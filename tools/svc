@@ -1,0 +1,14 @@
+/etc/systemd/system/<name>.service
+
+[Unit]
+Description=<name> service
+
+[Service]
+Restart=always
+RestartSec=5
+User=<user>
+WorkingDirectory=/home/<user>
+ExecStart=/usr/bin/python3 <fname>.py
+
+[Install]
+WantedBy=multi-user.target
