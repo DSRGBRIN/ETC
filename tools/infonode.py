@@ -23,7 +23,7 @@ def backup():
                 dt.append(stro[i])
 
     else:
-        out = check_output(["ifconfig", "-a"]).decode("utf-8")
+        out = check_output(["ip", "addr"]).decode("utf-8")
         stro = out.replace("\n", "<br>").split("<br>")
         for i in range(len(stro)):
             if stro[i].find("inet ")>0:
