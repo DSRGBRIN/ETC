@@ -12,3 +12,7 @@ ExecStart=/usr/bin/python3 <fname>.py
 
 [Install]
 WantedBy=multi-user.target
+
+systemctl start/stop/restart <name.service>
+
+journalctl -xfe -u '<name>'
