@@ -1,0 +1,63 @@
+# Genesis File
+{
+  "alloc": {
+    "": {
+      "balance": "1000000000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    },
+	"": {
+      "balance": "1000000000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    },
+    "": {
+      "balance": "1000000000000000000000"
+    }
+  },
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "config": {
+  "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "homesteadBlock": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "muirGlacierBlock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+    "shanghaiBlock": 0,
+    "chainId": 31052024,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip158Block": 0,
+    "maxCodeSize": 128, // use maxCodeSize or maxCodeSizeConfig //size: 24-128
+    "contractSizeLimit": 2147483647,  //in bytes
+    "isQuorum": true,
+	"qbft": {
+		  "epochlength": 30000,
+		  "blockperiodseconds": 2,
+		  "requesttimeoutseconds": 4
+		}
+  },
+  "difficulty": "0x0",
+  "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0xF0000000",
+  "mixhash": "0x00000000000000000000000000000000000000647572616c65787365646c6578",    
+  "nonce": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp": "0x00"
+}
+genesis.json
+Displaying genesis.json.
