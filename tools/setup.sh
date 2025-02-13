@@ -11,5 +11,5 @@ java --version
 echo "Setup is Done!"
 echo "# Next steps:"
 echo "echo \"alias besu=\\\"/home/<user>/besu-24.1.1/bin/besu\\\"\" >> .bashrc"
-echo "source ./bashrc"
+echo "source .bashrc"
 echo "# Change <user> with your user's account"
